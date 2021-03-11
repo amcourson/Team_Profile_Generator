@@ -1,9 +1,10 @@
 class Engineer {
-    constructor (name, id,email,officeNumber){
+    constructor (name, id,email,officeNumber,gitHub){
         this.name = name;
         this.id = id;
         this.email = email;
         this.officeNumber = officeNumber;
+        this.gitHub = gitHub;
 
     }
     getName(){
@@ -18,8 +19,11 @@ return this.email
    getofficeNumber (){
 return this.officeNumber
    };
-    getRole(){
-return "Manager"
+   getgiHtub(){
+return this.gitHub
+   }; 
+   getRole(){
+return "Engineer"
     };
 
 }
@@ -30,6 +34,11 @@ module.exports = Engineer
 
 
 
+// `github`&mdash;GitHub username
+
+// * `getGithub()`
+
+// * `getRole()`&mdash;overridden to return `'Engineer'`
 
 
 
@@ -40,8 +49,3 @@ module.exports = Engineer
 
 
 
-
-
-// `officeNumber`
-
-// * `getRole()`&mdash;overridden to return `'Manager'`
