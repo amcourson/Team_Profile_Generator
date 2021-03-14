@@ -21,11 +21,11 @@ return this.officeNumber
    };
    getSchool(){
 return this.school
-   }
+   };
     getRole(){
 return "Intern"
     };
 
 }
 
-module.export = Intern
+module.exports = Intern
